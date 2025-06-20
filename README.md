@@ -1,6 +1,6 @@
 # Matrix AI Assistant
 
-A J.A.R.V.I.S.-like personal assistant named **Matrix**.
+A  personal assistant named **Matrix**.
 
 ## 🛠️ Requirements
 
