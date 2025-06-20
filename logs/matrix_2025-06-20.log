@@ -1,0 +1,21 @@
+2025-06-20 22:47:47,431 - ERROR - Error importing skills: cannot import name 'Matrix' from partially initialized module 'core.brain' (most likely due to a circular import) (C:\projects\matrix\core\brain.py)
+2025-06-20 22:51:17,841 - INFO - Could not import comtypes.gen, trying to create it.
+2025-06-20 22:51:17,842 - INFO - Created comtypes.gen directory: 'C:\Users\manideep\AppData\Roaming\Python\Python311\site-packages\comtypes\gen'
+2025-06-20 22:51:17,842 - INFO - Writing __init__.py file: 'C:\Users\manideep\AppData\Roaming\Python\Python311\site-packages\comtypes\gen\__init__.py'
+2025-06-20 22:51:17,854 - INFO - Using writeable comtypes cache directory: 'C:\Users\manideep\AppData\Roaming\Python\Python311\site-packages\comtypes\gen'
+2025-06-20 22:51:17,874 - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2025-06-20 22:51:17,878 - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2025-06-20 22:51:17,932 - INFO - # Generating comtypes.gen.SpeechLib
+2025-06-20 22:51:17,939 - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2025-06-20 22:51:17,939 - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2025-06-20 22:51:17,947 - INFO - # Generating comtypes.gen.stdole
+2025-06-20 22:51:18,970 - INFO - Speaking: Hello Sir, I am Matrix. Ready for command.
+2025-06-20 22:51:24,634 - INFO - Listening for user input...
+2025-06-20 22:51:27,874 - ERROR - Could not understand audio.
+2025-06-20 22:51:28,207 - INFO - Listening for user input...
+2025-06-20 22:51:34,324 - ERROR - Listening timed out.
+2025-06-20 22:51:34,782 - INFO - Listening for user input...
+2025-06-20 22:51:44,475 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\manideep\\AppData\\Roaming\\Python\\Python311\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-06-20 22:51:44,475 - INFO - Using writeable comtypes cache directory: 'C:\Users\manideep\AppData\Roaming\Python\Python311\site-packages\comtypes\gen'
+2025-06-20 22:51:44,637 - INFO - Speaking: Hello Sir, I am Matrix. Ready for command.
+2025-06-20 22:51:50,310 - INFO - Listening for user input...

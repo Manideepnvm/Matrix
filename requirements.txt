@@ -1,7 +1,8 @@
-SpeechRecognition
-pyttsx3
-PyAudio
-psutil
-pyautogui
-pywhatkit
-keyboard
+SpeechRecognition==3.14.3
+pyttsx3==2.98
+PyAudio==0.2.14
+psutil==6.0.0
+pyautogui==0.9.54
+pywhatkit==5.2
+keyboard==0.13.5
+pvporcupine==2.0.6  # Optional: Wake word detection
