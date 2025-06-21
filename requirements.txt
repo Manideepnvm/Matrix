@@ -5,4 +5,3 @@ psutil==6.0.0
 pyautogui==0.9.54
 pywhatkit==5.2
 keyboard==0.13.5
-pvporcupine==2.0.6  # Optional: Wake word detection
