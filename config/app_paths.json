@@ -1,5 +1,83 @@
+
 {
   "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "firefox": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+  "edge": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
   "notepad": "C:\\Windows\\System32\\notepad.exe",
-  "calculator": "C:\\Windows\\System32\\calc.exe"
+  "notepad++": "C:\\Program Files\\Notepad++\\notepad++.exe",
+  "calculator": "calculator:",
+  "vscode": "C:\\Users\\YourUsername\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+  "spotify": "C:\\Users\\YourUsername\\AppData\\Roaming\\Spotify\\Spotify.exe",
+  "vlc": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+  "excel": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+  "word": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+  "powerpoint": "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE"
+}
+
+
+{
+  "john": {
+    "name": "John Doe",
+    "phone": "+919876543210",
+    "email": "john.doe@example.com",
+    "added_date": "2024-01-01T10:00:00"
+  },
+  "jane": {
+    "name": "Jane Smith",
+    "phone": "+919876543211",
+    "email": "jane.smith@example.com",
+    "added_date": "2024-01-02T15:30:00"
+  },
+  "mom": {
+    "name": "Mom",
+    "phone": "+919876543212",
+    "email": null,
+    "added_date": "2024-01-01T09:00:00"
+  }
+}
+
+// ============================================
+
+// config/settings.json (Optional advanced settings)
+{
+  "assistant": {
+    "name": "Matrix",
+    "wake_word": "matrix",
+    "alternative_wake_words": ["hey matrix", "ok matrix"],
+    "timeout": 15,
+    "confirmation_required": true
+  },
+  "speech": {
+    "engine": "pyttsx3",
+    "rate": 150,
+    "volume": 1.0,
+    "voice": "male",
+    "language": "en-US"
+  },
+  "recognition": {
+    "engine": "google",
+    "language": "en-US",
+    "energy_threshold": 4000,
+    "dynamic_energy": true,
+    "pause_threshold": 0.8
+  },
+  "ui": {
+    "enabled": true,
+    "position": "top-right",
+    "opacity": 0.9,
+    "animation": true,
+    "always_on_top": true
+  },
+  "logging": {
+    "level": "INFO",
+    "max_file_size": 10485760,
+    "backup_count": 5,
+    "console_output": true
+  },
+  "features": {
+    "context_awareness": true,
+    "command_history": true,
+    "auto_update": false,
+    "telemetry": false
+  }
 }

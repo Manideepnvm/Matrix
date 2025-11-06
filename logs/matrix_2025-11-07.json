@@ -1,0 +1,265 @@
+{"timestamp": "2025-11-07T05:00:27.651261", "level": "INFO", "logger": "Matrix", "message": "Logger 'Matrix' initialized", "module": "logger", "function": "__init__", "line": 95}
+{"timestamp": "2025-11-07T05:00:29.585416", "level": "WARNING", "logger": "Matrix", "message": "pycaw not available - volume control will be limited", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:00:31.341718", "level": "ERROR", "logger": "Matrix", "message": "Error importing skills: cannot import name 'smart_home' from 'skills' (unknown location)", "module": "logger", "function": "error", "line": 181}
+{"timestamp": "2025-11-07T05:02:33.291243", "level": "INFO", "logger": "Matrix", "message": "Logger 'Matrix' initialized", "module": "logger", "function": "__init__", "line": 95}
+{"timestamp": "2025-11-07T05:02:33.581703", "level": "WARNING", "logger": "Matrix", "message": "pycaw not available - volume control will be limited", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:02:35.112722", "level": "ERROR", "logger": "Matrix", "message": "Error importing skills: cannot import name 'smart_home' from 'skills' (unknown location)", "module": "logger", "function": "error", "line": 181}
+{"timestamp": "2025-11-07T05:05:11.481917", "level": "INFO", "logger": "Matrix", "message": "Logger 'Matrix' initialized", "module": "logger", "function": "__init__", "line": 95}
+{"timestamp": "2025-11-07T05:05:11.840829", "level": "WARNING", "logger": "Matrix", "message": "pycaw not available - volume control will be limited", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:05:14.571515", "level": "ERROR", "logger": "Matrix", "message": "Error importing skills: cannot import name 'smart_home' from 'skills' (unknown location)", "module": "logger", "function": "error", "line": 181}
+{"timestamp": "2025-11-07T05:05:39.170273", "level": "INFO", "logger": "Matrix", "message": "Logger 'Matrix' initialized", "module": "logger", "function": "__init__", "line": 95}
+{"timestamp": "2025-11-07T05:05:39.427311", "level": "WARNING", "logger": "Matrix", "message": "pycaw not available - volume control will be limited", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:05:42.124697", "level": "ERROR", "logger": "Matrix", "message": "Error importing skills: cannot import name 'weather' from 'skills' (unknown location)", "module": "logger", "function": "error", "line": 181}
+{"timestamp": "2025-11-07T05:10:23.817145", "level": "INFO", "logger": "Matrix", "message": "Logger 'Matrix' initialized", "module": "logger", "function": "__init__", "line": 95}
+{"timestamp": "2025-11-07T05:10:24.113525", "level": "WARNING", "logger": "Matrix", "message": "pycaw not available - volume control will be limited", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:25.594315", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: app_launcher", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.594315", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: browser_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.595322", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: media_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.596328", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: system_info", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.597327", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: message_sender", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.598325", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: power_controls", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.600326", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: file_manager", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.602326", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'smart_home' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:25.605340", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'weather' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:25.608352", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'calendar_manager' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:25.609352", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'reminder_system' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:25.612355", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'music_player' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:25.614354", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'screen_capture' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:25.622786", "level": "INFO", "logger": "Matrix", "message": "Logging initialized - Level: INFO, Directory: logs", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.623785", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.627786", "level": "INFO", "logger": "Matrix", "message": "Matrix Voice Assistant Starting...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.628793", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:25.629785", "level": "INFO", "logger": "Matrix", "message": "Configuration: Wake word='matrix', Timeout=15s, UI=True", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.354147", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.355133", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.357148", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.358207", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.358207", "level": "INFO", "logger": "Matrix", "message": "Listener initialized with wake word: 'matrix'", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.359215", "level": "INFO", "logger": "Matrix", "message": "Command Processor initialized with 30 commands", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.359215", "level": "INFO", "logger": "Matrix", "message": "Context Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.359215", "level": "INFO", "logger": "Matrix", "message": "UI Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.360216", "level": "INFO", "logger": "Matrix", "message": "Matrix initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:26.361215", "level": "INFO", "logger": "Matrix", "message": "Starting Matrix Voice Assistant...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:27.078819", "level": "INFO", "logger": "Matrix", "message": "UI window created", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:28.059937", "level": "INFO", "logger": "Matrix", "message": "Speaking: Hello Sir, I am Matrix. All systems online and ready for your command.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:28.061164", "level": "INFO", "logger": "Matrix", "message": "State transition: idle -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:28.063152", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:34.323276", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:34.325278", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:40.126258", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:40.128266", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:46.044856", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:46.046376", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:51.969334", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:51.969334", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:10:57.882984", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:10:57.884980", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:11:00.217539", "level": "INFO", "logger": "Matrix", "message": "Received shutdown signal.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:11:00.218543", "level": "INFO", "logger": "Matrix", "message": "Shutting down Matrix...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:11:00.218543", "level": "INFO", "logger": "Matrix", "message": "Speaking: Shutting down. Goodbye Sir.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:30.501147", "level": "INFO", "logger": "Matrix", "message": "Logger 'Matrix' initialized", "module": "logger", "function": "__init__", "line": 95}
+{"timestamp": "2025-11-07T05:12:30.752418", "level": "WARNING", "logger": "Matrix", "message": "pycaw not available - volume control will be limited", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:33.306865", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: app_launcher", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.308768", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: browser_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.309768", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: media_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.310765", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: system_info", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.311767", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: message_sender", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.312890", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: power_controls", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.313973", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: file_manager", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.314743", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'smart_home' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:33.316826", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'weather' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:33.317825", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'calendar_manager' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:33.318824", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'reminder_system' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:33.319822", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'music_player' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:33.320883", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'screen_capture' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:33.329291", "level": "INFO", "logger": "Matrix", "message": "Logging initialized - Level: INFO, Directory: logs", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.329291", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.330300", "level": "INFO", "logger": "Matrix", "message": "Matrix Voice Assistant Starting...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.332300", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.333299", "level": "INFO", "logger": "Matrix", "message": "Configuration: Wake word='matrix', Timeout=15s, UI=True", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.516957", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.518479", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.519840", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.521062", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.521062", "level": "INFO", "logger": "Matrix", "message": "Listener initialized with wake word: 'matrix'", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.522069", "level": "INFO", "logger": "Matrix", "message": "Command Processor initialized with 30 commands", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.522069", "level": "INFO", "logger": "Matrix", "message": "Context Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.523349", "level": "INFO", "logger": "Matrix", "message": "UI Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.523349", "level": "INFO", "logger": "Matrix", "message": "Matrix initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.525355", "level": "INFO", "logger": "Matrix", "message": "Starting Matrix Voice Assistant...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:33.580192", "level": "INFO", "logger": "Matrix", "message": "UI window created", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:34.579724", "level": "INFO", "logger": "Matrix", "message": "Speaking: Hello Sir, I am Matrix. All systems online and ready for your command.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:34.582843", "level": "INFO", "logger": "Matrix", "message": "State transition: idle -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:34.590744", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:40.916561", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:40.917270", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:46.782399", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:46.785335", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:52.733595", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:52.734600", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:12:58.647613", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:12:58.648629", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:04.551127", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:04.553135", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:10.508277", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:10.510269", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:16.386729", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:16.386729", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:22.245098", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:22.246120", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:28.086677", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:28.087691", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:33.955832", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:33.956831", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:39.829890", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:39.830899", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:45.710641", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:45.712610", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:51.614303", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:51.615296", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:13:57.473481", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:13:57.474488", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:14:03.317927", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:14:03.318928", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:14:09.161073", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:14:09.163091", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:14:13.300269", "level": "INFO", "logger": "Matrix", "message": "Received shutdown signal.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:14:13.301277", "level": "INFO", "logger": "Matrix", "message": "Shutting down Matrix...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:14:13.302269", "level": "INFO", "logger": "Matrix", "message": "Speaking: Shutting down. Goodbye Sir.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:46.732551", "level": "INFO", "logger": "Matrix", "message": "Logger 'Matrix' initialized", "module": "logger", "function": "__init__", "line": 95}
+{"timestamp": "2025-11-07T05:15:46.992846", "level": "WARNING", "logger": "Matrix", "message": "pycaw not available - volume control will be limited", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:15:48.420042", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: app_launcher", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.421042", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: browser_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.421042", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: media_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.422494", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: system_info", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.423504", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: message_sender", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.423504", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: power_controls", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.424505", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: file_manager", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.425508", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'smart_home' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:15:48.426509", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'weather' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:15:48.426509", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'calendar_manager' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:15:48.428718", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'reminder_system' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:15:48.429760", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'music_player' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:15:48.430716", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'screen_capture' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:15:48.434869", "level": "INFO", "logger": "Matrix", "message": "Logging initialized - Level: INFO, Directory: logs", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.435869", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.435869", "level": "INFO", "logger": "Matrix", "message": "Matrix Voice Assistant Starting...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.436996", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.436996", "level": "INFO", "logger": "Matrix", "message": "Configuration: Wake word='matrix', Timeout=15s, UI=True", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.623539", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.623971", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.626017", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.626989", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.627988", "level": "INFO", "logger": "Matrix", "message": "Listener initialized with wake word: 'matrix'", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.627988", "level": "INFO", "logger": "Matrix", "message": "Command Processor initialized with 30 commands", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.628989", "level": "INFO", "logger": "Matrix", "message": "Context Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.629990", "level": "INFO", "logger": "Matrix", "message": "UI Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.630988", "level": "INFO", "logger": "Matrix", "message": "Matrix initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.632221", "level": "INFO", "logger": "Matrix", "message": "Starting Matrix Voice Assistant...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:48.698230", "level": "INFO", "logger": "Matrix", "message": "UI window created", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:49.697603", "level": "INFO", "logger": "Matrix", "message": "Speaking: Hello Sir, I am Matrix. All systems online and ready for your command.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:49.698618", "level": "INFO", "logger": "Matrix", "message": "State transition: idle -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:49.702616", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:15:56.088099", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:15:56.089103", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:01.939434", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:16:01.941436", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:07.856080", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:16:07.857082", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:13.781678", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:16:13.782672", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:19.707337", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:16:19.709339", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:25.676759", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:16:25.678751", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:31.590583", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:16:31.592589", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:37.497572", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:16:37.498572", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:43.409187", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:16:43.409187", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:48.146903", "level": "INFO", "logger": "Matrix", "message": "Received shutdown signal.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:48.147903", "level": "INFO", "logger": "Matrix", "message": "Shutting down Matrix...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:16:48.149905", "level": "INFO", "logger": "Matrix", "message": "Speaking: Shutting down. Goodbye Sir.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:31.382715", "level": "INFO", "logger": "Matrix", "message": "Logger 'Matrix' initialized", "module": "logger", "function": "__init__", "line": 95}
+{"timestamp": "2025-11-07T05:17:31.717532", "level": "WARNING", "logger": "Matrix", "message": "pycaw not available - volume control will be limited", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:17:33.185184", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: app_launcher", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.185184", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: browser_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.186185", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: media_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.187186", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: system_info", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.187186", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: message_sender", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.188187", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: power_controls", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.188187", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: file_manager", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.189186", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'smart_home' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:17:33.189186", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'weather' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:17:33.190186", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'calendar_manager' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:17:33.191185", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'reminder_system' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:17:33.191185", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'music_player' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:17:33.192185", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'screen_capture' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:17:33.195186", "level": "INFO", "logger": "Matrix", "message": "Logging initialized - Level: INFO, Directory: logs", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.196186", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.196186", "level": "INFO", "logger": "Matrix", "message": "Matrix Voice Assistant Starting...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.197186", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.197186", "level": "INFO", "logger": "Matrix", "message": "Configuration: Wake word='matrix', Timeout=15s, UI=True", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.364063", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.365051", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.367050", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.368342", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.369349", "level": "INFO", "logger": "Matrix", "message": "Listener initialized with wake word: 'matrix'", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.369349", "level": "INFO", "logger": "Matrix", "message": "Command Processor initialized with 30 commands", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.370350", "level": "INFO", "logger": "Matrix", "message": "Context Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.371350", "level": "INFO", "logger": "Matrix", "message": "UI Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.371350", "level": "INFO", "logger": "Matrix", "message": "Matrix initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.372350", "level": "INFO", "logger": "Matrix", "message": "Starting Matrix Voice Assistant...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:33.426298", "level": "INFO", "logger": "Matrix", "message": "UI window created", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:34.426197", "level": "INFO", "logger": "Matrix", "message": "Speaking: Hello Sir, I am Matrix. All systems online and ready for your command.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:34.428215", "level": "INFO", "logger": "Matrix", "message": "State transition: idle -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:34.431356", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:40.535609", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:17:40.536719", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:46.388877", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:17:46.389894", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:51.893326", "level": "INFO", "logger": "Matrix", "message": "Received shutdown signal.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:51.895324", "level": "INFO", "logger": "Matrix", "message": "Shutting down Matrix...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:17:51.897326", "level": "INFO", "logger": "Matrix", "message": "Speaking: Shutting down. Goodbye Sir.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:41.646107", "level": "INFO", "logger": "Matrix", "message": "Logger 'Matrix' initialized", "module": "logger", "function": "__init__", "line": 95}
+{"timestamp": "2025-11-07T05:19:41.977436", "level": "WARNING", "logger": "Matrix", "message": "pycaw not available - volume control will be limited", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:19:44.506215", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: app_launcher", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.507082", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: browser_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.508082", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: media_control", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.509089", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: system_info", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.511091", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: message_sender", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.513089", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: power_controls", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.516090", "level": "INFO", "logger": "Matrix", "message": "Loaded skill: file_manager", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.517090", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'smart_home' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:19:44.519084", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'weather' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:19:44.521089", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'calendar_manager' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:19:44.522146", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'reminder_system' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:19:44.524520", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'music_player' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:19:44.525522", "level": "WARNING", "logger": "Matrix", "message": "Skill module 'screen_capture' not found \u2014 skipping.", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:19:44.530523", "level": "INFO", "logger": "Matrix", "message": "Logging initialized - Level: INFO, Directory: logs", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.531519", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.532529", "level": "INFO", "logger": "Matrix", "message": "Matrix Voice Assistant Starting...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.533523", "level": "INFO", "logger": "Matrix", "message": "============================================================", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.534531", "level": "INFO", "logger": "Matrix", "message": "Configuration: Wake word='matrix', Timeout=15s, UI=True", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.717204", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.719195", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.723485", "level": "INFO", "logger": "Matrix", "message": "TTS engine initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.724394", "level": "INFO", "logger": "Matrix", "message": "Speech Engine initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.726394", "level": "INFO", "logger": "Matrix", "message": "Listener initialized with wake word: 'matrix'", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.728393", "level": "INFO", "logger": "Matrix", "message": "Command Processor initialized with 30 commands", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.729397", "level": "INFO", "logger": "Matrix", "message": "Context Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.730393", "level": "INFO", "logger": "Matrix", "message": "UI Manager initialized", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.732393", "level": "INFO", "logger": "Matrix", "message": "Matrix initialized successfully", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.735391", "level": "INFO", "logger": "Matrix", "message": "Starting Matrix Voice Assistant...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:44.804264", "level": "INFO", "logger": "Matrix", "message": "UI window created", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:45.804895", "level": "INFO", "logger": "Matrix", "message": "Speaking: Hello Sir, I am Matrix. All systems online and ready for your command.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:45.808887", "level": "INFO", "logger": "Matrix", "message": "State transition: idle -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:45.815961", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:51.921269", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:19:51.922074", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:57.842497", "level": "WARNING", "logger": "Matrix", "message": "Listening timed out - no speech detected", "module": "logger", "function": "warning", "line": 177}
+{"timestamp": "2025-11-07T05:19:57.844496", "level": "INFO", "logger": "Matrix", "message": "State transition: wake_word_detection -> wake_word_detection", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:59.216229", "level": "INFO", "logger": "Matrix", "message": "Received shutdown signal.", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:59.218235", "level": "INFO", "logger": "Matrix", "message": "Shutting down Matrix...", "module": "logger", "function": "info", "line": 173}
+{"timestamp": "2025-11-07T05:19:59.220247", "level": "INFO", "logger": "Matrix", "message": "Speaking: Shutting down. Goodbye Sir.", "module": "logger", "function": "info", "line": 173}

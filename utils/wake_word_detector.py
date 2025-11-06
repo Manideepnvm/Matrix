@@ -1,39 +1,47 @@
-# utils/wake_word_detector.py
-
-import pvporcupine
-import pyaudio
 import struct
-import logging
-from core.logger import log_info, log_error
+import pyaudio
+import pvporcupine
+
+from core.logger import loginfo, logerror
+
 
 class WakeWordDetector:
-    def __init__(self, access_key, keyword_path):
+    """
+    Porcupine wake-word detector wrapper.
+    """
+
+    def __init__(self, access_key: str, keyword_path: str):
         """
         Initializes the wake word detector.
-        
+
         Args:
-            access_key (str): Picovoice AccessKey for Porcupine
-            keyword_path (str): Path to .ppn wake word model file
+            access_key (str): Picovoice AccessKey for Porcupine.
+            keyword_path (str): Path to .ppn wake word model file.
         """
         self.access_key = access_key
         self.keyword_path = keyword_path
+
         self.porcupine = None
         self.pa = None
         self.audio_stream = None
+
         self.is_listening = False
-        self.detected = False
+        self._detected = False
 
     def start(self, callback=None):
         """
         Starts listening for the wake word.
-        
+
         Args:
-            callback (function): Optional function to call when wake word is detected
+            callback (callable | None): Optional function to call when wake word is detected.
         """
         try:
-            log_info("Initializing Porcupine wake word engine...")
-            self.porcupine = pvporcupine.create(access_key=self.access_key, keyword_paths=[self.keyword_path])
-            log_info(f"Loaded wake word model: {self.keyword_path}")
+            loginfo("Initializing Porcupine wake word engine...")
+            self.porcupine = pvporcupine.create(
+                access_key=self.access_key,
+                keyword_paths=[self.keyword_path],
+            )
+            loginfo(f"Loaded wake word model: {self.keyword_path}")
 
             self.pa = pyaudio.PyAudio()
             self.audio_stream = self.pa.open(
@@ -41,50 +49,62 @@ class WakeWordDetector:
                 format=pyaudio.paInt16,
                 channels=1,
                 input=True,
-                frames_per_buffer=self.porcupine.frame_length
+                frames_per_buffer=self.porcupine.frame_length,
             )
 
-            log_info("Listening for wake word...")
+            loginfo("Listening for wake word...")
             print("Listening for wake word...")
-
             self.is_listening = True
+
             while self.is_listening:
-                pcm = self.audio_stream.read(self.porcupine.frame_length)
+                pcm = self.audio_stream.read(self.porcupine.frame_length, exception_on_overflow=False)
                 pcm = struct.unpack_from("h" * self.porcupine.frame_length, pcm)
                 result = self.porcupine.process(pcm)
 
                 if result >= 0:
-                    log_info("Wake word detected!")
+                    loginfo("Wake word detected!")
                     print("Wake word detected!")
-                    self.detected = True
+                    self._detected = True
                     if callback:
-                        callback()
+                        try:
+                            callback()
+                        except Exception as cb_err:
+                            logerror(f"Wake word callback failed: {cb_err}")
                     self.stop()
 
         except Exception as e:
-            error_msg = f"Wake word detection error: {e}"
-            log_error(error_msg)
+            err = f"Wake word detection error: {e}"
+            logerror(err)
             self.stop()
 
     def stop(self):
-        """Stops the wake word detection."""
+        """Stops the wake word detection and releases resources."""
         self.is_listening = False
-        log_info("Stopping wake word detector...")
+        loginfo("Stopping wake word detector...")
 
-        if self.audio_stream:
-            self.audio_stream.close()
+        if self.audio_stream is not None:
+            try:
+                self.audio_stream.close()
+            except Exception:
+                pass
             self.audio_stream = None
 
-        if self.porcupine:
-            self.porcupine.delete()
+        if self.porcupine is not None:
+            try:
+                self.porcupine.delete()
+            except Exception:
+                pass
             self.porcupine = None
 
-        if self.pa:
-            self.pa.terminate()
+        if self.pa is not None:
+            try:
+                self.pa.terminate()
+            except Exception:
+                pass
             self.pa = None
 
-        log_info("Wake word detector stopped.")
+        loginfo("Wake word detector stopped.")
 
-    def is_wake_word_detected(self):
+    def is_wake_word_detected(self) -> bool:
         """Returns True if wake word was detected."""
-        return self.detected
+        return self._detected

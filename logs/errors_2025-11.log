@@ -1,0 +1,16 @@
+2025-11-07 05:00:31 - Matrix - ERROR - [logger.error:181]
+Message: Error importing skills: cannot import name 'smart_home' from 'skills' (unknown location)
+False
+--------------------------------------------------------------------------------
+2025-11-07 05:02:35 - Matrix - ERROR - [logger.error:181]
+Message: Error importing skills: cannot import name 'smart_home' from 'skills' (unknown location)
+False
+--------------------------------------------------------------------------------
+2025-11-07 05:05:14 - Matrix - ERROR - [logger.error:181]
+Message: Error importing skills: cannot import name 'smart_home' from 'skills' (unknown location)
+False
+--------------------------------------------------------------------------------
+2025-11-07 05:05:42 - Matrix - ERROR - [logger.error:181]
+Message: Error importing skills: cannot import name 'weather' from 'skills' (unknown location)
+False
+--------------------------------------------------------------------------------

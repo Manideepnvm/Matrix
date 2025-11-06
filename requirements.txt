@@ -1,7 +1,44 @@
-SpeechRecognition==3.14.3
-pyttsx3==2.98
-PyAudio==0.2.14
-psutil==6.0.0
-pyautogui==0.9.54
-pywhatkit==5.2
-keyboard==0.13.5
+# Matrix Voice Assistant - Requirements
+# Python 3.8+ required
+
+# Core Dependencies
+pyttsx3>=2.90                    # Text-to-speech engine
+SpeechRecognition>=3.10.0        # Speech recognition
+PyAudio>=0.2.13                  # Audio input/output
+
+# System Monitoring
+psutil>=5.9.0                    # System and process utilities
+py-cpuinfo>=9.0.0                # CPU information
+
+# GUI (Optional but recommended)
+pillow>=10.0.0                   # Image processing for UI
+tk>=0.1.0                        # Tkinter (usually pre-installed)
+
+# Media Control
+pyautogui>=0.9.54                # GUI automation for media keys
+pycaw>=20230407                  # Windows audio control (Windows only)
+
+# Messaging
+pywhatkit>=5.4                   # WhatsApp automation
+
+# Web Browser Control
+webbrowser>=0.3.0                # Built-in, no install needed
+
+# Utilities
+python-dateutil>=2.8.2           # Date utilities
+pathlib>=1.0.1                   # Path manipulation (built-in Python 3.4+)
+
+# Optional: Wake Word Detection (Advanced)
+# pvporcupine>=3.0.0             # Porcupine wake word detection (requires license)
+
+# Development Dependencies (Optional)
+# pytest>=7.4.0                  # Testing framework
+# black>=23.0.0                  # Code formatter
+# flake8>=6.0.0                  # Linting
+
+# Platform-specific notes:
+# - Windows: All dependencies should work out of the box
+# - Linux: May need portaudio19-dev for PyAudio
+#   sudo apt-get install portaudio19-dev python3-pyaudio
+# - macOS: May need to install portaudio via Homebrew
+#   brew install portaudio
