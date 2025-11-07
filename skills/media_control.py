@@ -8,11 +8,14 @@ from enum import Enum
 from core.logger import log_info, log_error, log_warning, log_debug
 
 try:
-    from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+    import importlib
+    pycaw_module = importlib.import_module("pycaw.pycaw")
+    AudioUtilities = getattr(pycaw_module, "AudioUtilities")
+    IAudioEndpointVolume = getattr(pycaw_module, "IAudioEndpointVolume")
     from comtypes import CLSCTX_ALL
     from ctypes import cast, POINTER
     PYCAW_AVAILABLE = True
-except ImportError:
+except Exception:
     PYCAW_AVAILABLE = False
     log_warning("pycaw not available - volume control will be limited")
 

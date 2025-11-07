@@ -1,6 +1,5 @@
 import struct
 import pyaudio
-import pvporcupine
 
 from core.logger import loginfo, logerror
 
@@ -37,6 +36,18 @@ class WakeWordDetector:
         """
         try:
             loginfo("Initializing Porcupine wake word engine...")
+            try:
+                # Import pvporcupine at runtime using importlib to avoid static analyzer unresolved-import errors.
+                import importlib
+                pvporcupine = importlib.import_module("pvporcupine")
+            except Exception as ie:
+                err = (
+                    "Porcupine SDK (pvporcupine) is not installed. "
+                    "Install it with 'pip install pvporcupine' and ensure it is available in the runtime."
+                )
+                logerror(f"{err} ({ie})")
+                raise RuntimeError(err) from ie
+
             self.porcupine = pvporcupine.create(
                 access_key=self.access_key,
                 keyword_paths=[self.keyword_path],
@@ -71,7 +82,6 @@ class WakeWordDetector:
                         except Exception as cb_err:
                             logerror(f"Wake word callback failed: {cb_err}")
                     self.stop()
-
         except Exception as e:
             err = f"Wake word detection error: {e}"
             logerror(err)

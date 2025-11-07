@@ -263,3 +263,52 @@
 2025-11-07 05:19:59 - Matrix - INFO - [logger.info:173] - Received shutdown signal.
 2025-11-07 05:19:59 - Matrix - INFO - [logger.info:173] - Shutting down Matrix...
 2025-11-07 05:19:59 - Matrix - INFO - [logger.info:173] - Speaking: Shutting down. Goodbye Sir.
+2025-11-07 05:29:20 - Matrix - INFO - [logger.__init__:95] - Logger 'Matrix' initialized
+2025-11-07 05:29:21 - Matrix - WARNING - [logger.warning:177] - pycaw not available - volume control will be limited
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Loaded skill: app_launcher
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Loaded skill: browser_control
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Loaded skill: media_control
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Loaded skill: system_info
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Loaded skill: message_sender
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Loaded skill: power_controls
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Loaded skill: file_manager
+2025-11-07 05:29:24 - Matrix - WARNING - [logger.warning:177] - Skill module 'smart_home' not found — skipping.
+2025-11-07 05:29:24 - Matrix - WARNING - [logger.warning:177] - Skill module 'weather' not found — skipping.
+2025-11-07 05:29:24 - Matrix - WARNING - [logger.warning:177] - Skill module 'calendar_manager' not found — skipping.
+2025-11-07 05:29:24 - Matrix - WARNING - [logger.warning:177] - Skill module 'reminder_system' not found — skipping.
+2025-11-07 05:29:24 - Matrix - WARNING - [logger.warning:177] - Skill module 'music_player' not found — skipping.
+2025-11-07 05:29:24 - Matrix - WARNING - [logger.warning:177] - Skill module 'screen_capture' not found — skipping.
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Logging initialized - Level: INFO, Directory: logs
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - ============================================================
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Matrix Voice Assistant Starting...
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - ============================================================
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Configuration: Wake word='matrix', Timeout=15s, UI=True
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - TTS engine initialized successfully
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Speech Engine initialized
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - TTS engine initialized successfully
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Speech Engine initialized
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Listener initialized with wake word: 'matrix'
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Command Processor initialized with 30 commands
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Context Manager initialized
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - UI Manager initialized
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Matrix initialized successfully
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - Starting Matrix Voice Assistant...
+2025-11-07 05:29:24 - Matrix - INFO - [logger.info:173] - UI window created
+2025-11-07 05:29:25 - Matrix - INFO - [logger.info:173] - Speaking: Hello Sir, I am Matrix. All systems online and ready for your command.
+2025-11-07 05:29:25 - Matrix - INFO - [logger.info:173] - State transition: idle -> wake_word_detection
+2025-11-07 05:29:25 - Matrix - INFO - [logger.info:173] - State transition: wake_word_detection -> wake_word_detection
+2025-11-07 05:29:31 - Matrix - WARNING - [logger.warning:177] - Listening timed out - no speech detected
+2025-11-07 05:29:31 - Matrix - INFO - [logger.info:173] - State transition: wake_word_detection -> wake_word_detection
+2025-11-07 05:29:37 - Matrix - WARNING - [logger.warning:177] - Listening timed out - no speech detected
+2025-11-07 05:29:37 - Matrix - INFO - [logger.info:173] - State transition: wake_word_detection -> wake_word_detection
+2025-11-07 05:29:43 - Matrix - WARNING - [logger.warning:177] - Listening timed out - no speech detected
+2025-11-07 05:29:43 - Matrix - INFO - [logger.info:173] - State transition: wake_word_detection -> wake_word_detection
+2025-11-07 05:29:49 - Matrix - WARNING - [logger.warning:177] - Listening timed out - no speech detected
+2025-11-07 05:29:49 - Matrix - INFO - [logger.info:173] - State transition: wake_word_detection -> wake_word_detection
+2025-11-07 05:29:55 - Matrix - WARNING - [logger.warning:177] - Listening timed out - no speech detected
+2025-11-07 05:29:55 - Matrix - INFO - [logger.info:173] - State transition: wake_word_detection -> wake_word_detection
+2025-11-07 05:30:01 - Matrix - WARNING - [logger.warning:177] - Listening timed out - no speech detected
+2025-11-07 05:30:01 - Matrix - INFO - [logger.info:173] - State transition: wake_word_detection -> wake_word_detection
+2025-11-07 05:30:03 - Matrix - INFO - [logger.info:173] - Received shutdown signal.
+2025-11-07 05:30:03 - Matrix - INFO - [logger.info:173] - Shutting down Matrix...
+2025-11-07 05:30:03 - Matrix - INFO - [logger.info:173] - Speaking: Shutting down. Goodbye Sir.
