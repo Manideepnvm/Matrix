@@ -18,3 +18,7 @@ False
 Message: Sphinx error: missing PocketSphinx module: ensure that PocketSphinx is set up correctly.
 False
 --------------------------------------------------------------------------------
+2025-11-10 13:20:04 - Matrix - ERROR - [logger.error:181]
+Message: Error in blocking speech: run loop already started
+False
+--------------------------------------------------------------------------------
