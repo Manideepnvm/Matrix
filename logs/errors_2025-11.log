@@ -14,3 +14,7 @@ False
 Message: Error importing skills: cannot import name 'weather' from 'skills' (unknown location)
 False
 --------------------------------------------------------------------------------
+2025-11-09 03:35:41 - Matrix - ERROR - [logger.error:181]
+Message: Sphinx error: missing PocketSphinx module: ensure that PocketSphinx is set up correctly.
+False
+--------------------------------------------------------------------------------
