@@ -1,10 +1,11 @@
 import os
 from datetime import datetime
+from typing import Optional, List, Union
 
-from core.logger import loginfo, logerror
+from core.logger import log_info, log_error
 
 
-def clean_query(query: str) -> str | None:
+def clean_query(query: Optional[str]) -> Optional[str]:
     """
     Removes extra spaces and converts to lowercase. Useful for normalizing voice commands.
     """
@@ -13,7 +14,7 @@ def clean_query(query: str) -> str | None:
             return query.strip().lower()
         return None
     except Exception as e:
-        logerror(f"Error cleaning query: {e}")
+        log_error(f"Error cleaning query: {e}")
         return None
 
 
@@ -22,7 +23,7 @@ def check_file_exists(file_path: str) -> bool:
     try:
         return os.path.isfile(file_path)
     except Exception as e:
-        logerror(f"Error checking file: {e}")
+        log_error(f"Error checking file: {e}")
         return False
 
 
@@ -31,11 +32,11 @@ def check_folder_exists(folder_path: str) -> bool:
     try:
         return os.path.isdir(folder_path)
     except Exception as e:
-        logerror(f"Error checking folder: {e}")
+        log_error(f"Error checking folder: {e}")
         return False
 
 
-def get_file_size(file_path: str) -> float | None:
+def get_file_size(file_path: str) -> Optional[float]:
     """
     Returns the size of a file in MB. Returns None if file doesn't exist.
     """
@@ -46,11 +47,11 @@ def get_file_size(file_path: str) -> float | None:
             return size_mb
         return None
     except Exception as e:
-        logerror(f"Error getting file size: {e}")
+        log_error(f"Error getting file size: {e}")
         return None
 
 
-def get_folder_size(folder_path: str) -> float | None:
+def get_folder_size(folder_path: str) -> Optional[float]:
     """
     Recursively calculates the total size of a folder in MB.
     """
@@ -67,29 +68,29 @@ def get_folder_size(folder_path: str) -> float | None:
                         pass
         return round(total_size / (1024 * 1024), 2)
     except Exception as e:
-        logerror(f"Error getting folder size: {e}")
+        log_error(f"Error getting folder size: {e}")
         return None
 
 
-def get_current_time(format_str: str = "%H:%M:%S") -> str | None:
+def get_current_time(format_str: str = "%H:%M:%S") -> Optional[str]:
     """Returns current time formatted as desired. Default HH:MM:SS."""
     try:
         return datetime.now().strftime(format_str)
     except Exception as e:
-        logerror(f"Error getting current time: {e}")
+        log_error(f"Error getting current time: {e}")
         return None
 
 
-def get_current_date(format_str: str = "%Y-%m-%d") -> str | None:
+def get_current_date(format_str: str = "%Y-%m-%d") -> Optional[str]:
     """Returns current date formatted as desired. Default YYYY-MM-DD."""
     try:
         return datetime.now().strftime(format_str)
     except Exception as e:
-        logerror(f"Error getting current date: {e}")
+        log_error(f"Error getting current date: {e}")
         return None
 
 
-def contains_keyword(text: str, keywords: str | list[str]) -> bool:
+def contains_keyword(text: str, keywords: Union[str, List[str]]) -> bool:
     """
     Checks if any of the given keywords are in the text. Useful for command matching.
     """
@@ -106,5 +107,5 @@ def contains_keyword(text: str, keywords: str | list[str]) -> bool:
 
         return False
     except Exception as e:
-        logerror(f"Error checking keyword match: {e}")
+        log_error(f"Error checking keyword match: {e}")
         return False

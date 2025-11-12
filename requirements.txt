@@ -36,6 +36,9 @@ pathlib>=1.0.1                   # Path manipulation (built-in Python 3.4+)
 # black>=23.0.0                  # Code formatter
 # flake8>=6.0.0                  # Linting
 
+# Added for local testing
+pytest>=7.4.0
+
 # Platform-specific notes:
 # - Windows: All dependencies should work out of the box
 # - Linux: May need portaudio19-dev for PyAudio
